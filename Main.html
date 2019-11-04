@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <META charset="utf-8">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <title>암기를 위한 어플</title>
+  </head>
+  <body>
+    <script>
+      var quiz=[0,1,2,3];
+      var hint=[0,1,2,3];
+      var rightanswer=[0,1,2,3];
+      var abc = parseInt(Math.random()*quiz.length);
+      document.write(quiz[abc]);
+    </script>
+      <input type="text", id="answer">
+      <input type="button", id="hintbutton", value="힌트">
+      <input type="button", id="nextstep", value="제출">
+  </body>
+</html>
